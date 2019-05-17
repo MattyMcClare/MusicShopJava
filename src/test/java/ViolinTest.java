@@ -42,4 +42,9 @@ public class ViolinTest {
     public void hasType() {
         assertEquals("stringed", violin.getType());
     }
+
+    @Test
+    public void hasNumberOfStrings() {
+        assertEquals(4, violin.getNumberOfStrings());
+    }
 }
